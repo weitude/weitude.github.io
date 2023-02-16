@@ -1,6 +1,6 @@
 import { Image, useColorModeValue } from "@chakra-ui/react";
-import white from "@img/weitude_white.png";
-import black from "@img/weitude_black.png";
+import white from "@img/weitude_white.webp";
+import black from "@img/weitude_black.webp";
 
 const Title = () => {
   const invert = useColorModeValue("invert(5%)", "invert(95%)");

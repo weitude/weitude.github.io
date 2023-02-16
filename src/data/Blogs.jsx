@@ -1,9 +1,12 @@
 import { FaGithub, FaGlobeAmericas } from "react-icons/fa";
+import ramen from "@img/ramen.webp";
+import book from "@img/book.webp";
+import csie from "@img/csie.webp";
 
 const blogs = [
   {
     title: "緯度拉麵",
-    img: "https://i.imgur.com/SEW7r2M.jpg",
+    img: ramen,
     info: "我的拉麵食記",
     btns: [
       {
@@ -20,7 +23,7 @@ const blogs = [
   },
   {
     title: "緯度書房",
-    img: "https://i.imgur.com/kG4XmAM.png",
+    img: book,
     info: "我的讀書心得",
     btns: [
       {
@@ -37,7 +40,7 @@ const blogs = [
   },
   {
     title: "緯度資工",
-    img: "https://i.imgur.com/254bTSz.png",
+    img: csie,
     info: "我的資工筆記",
     btns: [
       {
