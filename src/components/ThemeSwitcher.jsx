@@ -5,7 +5,6 @@ import { BsMoonFill, BsSunFill } from "react-icons/bs";
 const ThemeSwitcher = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const [isMobile] = useMediaQuery("(max-width: 768px)");
-
   const spring = {
     type: "spring",
     stiffness: 100,
