@@ -55,7 +55,7 @@ function Footer() {
   return (
     <Flex
       w="100%"
-      h="5vh"
+      h="50"
       px="8"
       justifyContent="space-between"
       alignItems="center"
@@ -64,11 +64,11 @@ function Footer() {
       bottom="0"
     >
       <HStack>
-        <Link href="https://weitude.tech/" _hover={{ textDecoration: "none" }} isExternal>
-          <Text mr="4" fontSize="lg" fontWeight="600" color="gray.400">
+        <Text mr="4" fontSize="lg" fontWeight="600" color="gray.400">
+          <Link href="https://weitude.tech/" isExternal>
             weitude.tech
-          </Text>
-        </Link>
+          </Link>
+        </Text>
         <HStack>
           <Icon as={FaCodeBranch} boxSize="3" color="gray.400" />
           <Text fontSize="12" fontWeight="500" color="gray.400">

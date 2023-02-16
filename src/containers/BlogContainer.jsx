@@ -10,7 +10,7 @@ const BlogContainer = () => {
     <Flex flexDirection="column" justifyContent="flex-start" alignItems="center" minH="100vh">
       <ThemeSwitcher />
       <Title />
-      <Flex flexWrap="wrap" justifyContent="center" gap="50px" mx="100px">
+      <Flex flexWrap="wrap" justifyContent="center" gap="50px" mx="100px" mb="50">
         {blogs.map((blog, idx) => {
           return <BlogCard key={idx} blog={blog} />;
         })}
