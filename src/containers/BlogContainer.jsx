@@ -14,7 +14,7 @@ const BlogContainer = () => {
       minH="100vh"
     >
       <Title />
-      <Flex flexWrap="wrap" justifyContent="center" gap="50px" p="100px">
+      <Flex flexWrap="wrap" justifyContent="center" gap="50px" mx="100px">
         {blogs.map((blog, idx) => {
           return <BlogCard key={idx} blog={blog} />;
         })}

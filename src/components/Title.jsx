@@ -1,11 +1,9 @@
-import { Heading } from "@chakra-ui/react";
+import { Image, useColorModeValue } from "@chakra-ui/react";
+import weitude from "@img/weitude.png";
 
 const Title = () => {
-  return (
-    <Heading as="h1" size="4xl" mt="10vh" mb="10vh">
-      自由緯度
-    </Heading>
-  );
+  const invert = useColorModeValue("invert(5%)", "invert(95%)");
+  return <Image src={weitude} alt="自由緯度" my="8vh" w="25%" minW="300px" filter={invert} />;
 };
 
 export default Title;
