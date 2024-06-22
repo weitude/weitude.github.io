@@ -24,14 +24,13 @@ const BlogCard = ({ blog }) => {
             <Text>{info}</Text>
           </Stack>
         </CardBody>
-        <Divider />
         <CardFooter>
           <ButtonGroup spacing="4">
             {btns.map((btn, idx) => {
               return (
                 <Button
                   key={idx}
-                  size="sm"
+                  size="xs"
                   leftIcon={btn.icon}
                   onClick={() => window.open(btn.link)}
                 >
